@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-03 18:51:32.616000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "report_settings_section",
+  "email"
+ ],
+ "fields": [
+  {
+   "description": "Email address is used to send the daily CSV report.\n",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "report_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Report Settings"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-02-03 18:55:48.040578",
+ "modified_by": "Administrator",
+ "module": "Daily Login Report",
+ "name": "Daily Login Report Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

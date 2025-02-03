@@ -1,7 +1,7 @@
 app_name = "daily_login_report"
 app_title = "Daily Login Report"
-app_publisher = "	"
-app_description = "	"
+app_publisher = "tareqjoumaa4@gmail.com"
+app_description = "Daily Login Report"
 app_email = "tareqjoumaa4@gmail.com"
 app_license = "mit"
 
@@ -148,13 +148,13 @@ app_license = "mit"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
+scheduler_events = {
 # 	"all": [
 # 		"daily_login_report.tasks.all"
 # 	],
-# 	"daily": [
-# 		"daily_login_report.tasks.daily"
-# 	],
+	"daily": [
+		"daily_login_report.tasks.daily"
+	],
 # 	"hourly": [
 # 		"daily_login_report.tasks.hourly"
 # 	],
@@ -164,7 +164,7 @@ app_license = "mit"
 # 	"monthly": [
 # 		"daily_login_report.tasks.monthly"
 # 	],
-# }
+}
 
 # Testing
 # -------
